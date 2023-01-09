@@ -25,13 +25,14 @@
             <br>
             <label>D-O-B:<input type="date" name="dob" required></label>
             <br>
+            <br>
             <input type="hidden" name="_token" value="<?php echo csrf_token(); ?>">
             <label>PHONE NO:<input type="number" name="number" required></label><br>
             <br>
 
 
             <br>
-            <input type="submit" value="login">
+            <input type="submit" value="login" style="background-color:brown" >
 
 
         </form>

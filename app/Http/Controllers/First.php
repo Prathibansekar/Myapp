@@ -11,7 +11,7 @@ class First extends Controller
     {
        $emp= DB::select('select * from employees');
 
-        return view("emplist",['emp'=>$emp]);
+        return view("emplist",['empindex'=>$emp]);
     }
     public function form()
     {

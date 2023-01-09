@@ -8,7 +8,7 @@
 
 </head>
 
-<body >
+<body>
     <table align="center" border="2">
         <tr>
             <th>username</th>
@@ -19,7 +19,7 @@
 
 
 
-        @foreach ($emp as $emps)
+        @foreach ($empindex as $emps)
             <tr>
 
                 <td>{{ $emps->username }}</td>
