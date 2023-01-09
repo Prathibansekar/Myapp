@@ -31,4 +31,11 @@ class First extends Controller
         return 'record inserted successfully! <a href="/">click</a>';
 
     }
+    public function emp($id)
+    {
+        $emp=DB::select('select * from employees where id=?',[$id]);
+
+        return view('empdetail',['emp'=>$emp]);
+
+    }
 }
