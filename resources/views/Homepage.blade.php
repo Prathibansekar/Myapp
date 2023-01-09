@@ -8,7 +8,7 @@
     <title>login page</title>
     <style>
         #style {
-            background-color: chartreuse;
+            background-color:darkslategray;
         }
     </style>
 </head>
@@ -32,7 +32,7 @@
 
 
             <br>
-            <input type="submit" value="login" style="background-color:brown">
+            <input type="submit" value="submit" style="background-color:brown">
 
 
         </form>
